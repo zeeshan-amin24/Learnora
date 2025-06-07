@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+  width: 100%;
+  font-family: 'Poppins', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9!important;
+  color: #222;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
+.site-header {
+  background-color: #f8f9fa;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo-section img {
+  height: 38px;
+  width: 38px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.brand-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #004085;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #004085;
+}
+
+
+.main {
+  padding: 1rem;
+}
+
+footer {
+ 
+  color: #555;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  padding: 1rem;
+  background: white;
+  margin: 0.5rem 0;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+li a:hover {
+  background: #f0f0f0;
+}
+
+.chapter-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+mjx-container[jax="CHTML"] {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: inline !important;
+  line-height: 1.2 !important;
+}
+
+
+.mathjax-inline {
+  margin: 0 !important;
+  padding: 0 !important;
+  white-space: nowrap !important;
+}
+
+
+body, div, section,h2,span,p {
+background: transparent!important; 
+color: black;
+}
+
+
+body, p, h1, h2, h3, h4, h5, h6, li, span, div, td, th {
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+}
+
+
+mjx-container {
+  font-size: 20px !important;
+  line-height: 1.5 !important;
+}
+
+@media(max-width: 530px){
+  mjx-container {
+  font-size: 16px !important;
+
+}
+body, p, h1, h2, h3, h4, h5, h6, li, span, div, td, th {
+  font-size: 14px !important;
+ 
+}
+li a{
+  font-size: 14px;
+}
+}
+
+@media(max-width: 450px){
+  li a{
+  font-size: 12px;
+  
+}
+li{
+  margin: 0;
+}
+.site-header a{
+  font-size: 12px;
+}
+footer p{
+  font-size: 12px !important;
+}
+
+}
+
+@media(max-width: 370px){
+    li a{
+  font-size: 10px;
+}
+.site-header{
+  font-size: 12px;
+}
+
+
+
+}
+
+@media(max-width: 450px){
+  li a{
+  font-size: 12px;
+  
+}
+li{
+  margin: 0;
+}
+.site-header a{
+  font-size: 12px;
+}
+footer p{
+  font-size: 12px !important;
+}
+.chapter-content p,span,div{
+  font-size: 12px !important;
+}
+  mjx-container {
+  font-size: 14px !important;
+
+}}
+
+@media(max-width: 350px){
+    li a{
+  font-size: 8px;
+}
+.brand-name{
+  font-size: 12px!important;
+}
+.site-header a{
+  font-size: 10px;
+}
+footer p{
+  font-size: 8px !important;
+}
+
+}
+@media(max-width: 270px){
+  .brand-name{
+    font-size: 9px !important;
+  }
+  .site-header a{
+    font-size: 8px !important;
+  }
+  .site-header{
+  padding: 8px 14px;
+  }
+  .chapter-content p,span,div{
+  font-size: 10px !important;
+}
+  mjx-container {
+  font-size: 12px !important;
+
+}
+
+}
+.about-us {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 1rem 1.5rem;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #004085;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  margin-bottom: 1rem;
+}
+
+.about-us h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: #004085;
+}
+
+.about-us p {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: #444;
+  text-align: justify;
+}
+@media(max-width: 300px){
+  .about-us p{
+    font-size: 0.75rem !important;
+  }
+  .chapter-content h2{
+    font-size: 12px !important;
+  }
+}
+@media(max-width: 250px){
+  .about-us {
+    padding: 1rem 1rem;
+  }
+}
+ 
+.chapter-content{
+  overflow-x: hidden !important;
+} 
+.chapter-content p, span, div{
+  text-align: start !important;
+}
+

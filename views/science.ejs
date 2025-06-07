@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Learnora – Class 9th Science NCERT Solutions</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="logo-section">
+    <span class="brand-name">Learnora</span>
+  </div>
+  <nav class="nav-links">
+    <a href="/">Subjects</a>
+    <a href="/about">About Us</a>
+ 
+  </nav>
+</header>
+
+ <div class="main">
+    <ul>
+      <% chapters.forEach((name, i) => { %>
+        <li><a href="/science/<%= i+1 %>">Chapter <%= i+1 %>: <%= name %></a></li>
+      <% }); %>
+    </ul>
+ </div>
+
+  <footer>
+    <p>© <%= new Date().getFullYear() %> Learnora. All rights reserved.</p>
+  </footer>
+</body>
+</html>
